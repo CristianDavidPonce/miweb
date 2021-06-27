@@ -12,6 +12,7 @@ rules: {
 `$npm install @material-ui/core@next @emotion/react @emotion/styled`
 `$npm install @material-ui/icons@next`
 `npm i react-router-dom react-motion-layout --save`
+`https://cristianponce.netlify.app/`
 
 
 
