@@ -22,7 +22,7 @@ function HideOnScroll (props: Props) {
   const trigger = useScrollTrigger({
     target: window ? window() : undefined
   })
-
+  console.log(trigger)
   return (
       <Slide appear={false} direction="down" in={!trigger}>
         {children}
@@ -33,6 +33,7 @@ function Navbar (props: NavProps) {
   // const {} = props
 
   return (
+
     <HideOnScroll {...props}>
         <AppBar position='fixed'>
         <Toolbar>

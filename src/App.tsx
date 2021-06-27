@@ -10,8 +10,6 @@ import { Home, About } from './views'
 
 function App () {
   return (
-    <div className="App">
-      <header className="Cristian Ponce">
       <Box sx={{ flexGrow: 1 }}>
           <Router>
           <Navbar/>
@@ -30,8 +28,6 @@ function App () {
       </div>
     </Router>
       </Box>
-      </header>
-    </div>
   )
 }
 
